@@ -158,4 +158,4 @@ const Works = () => {
   )
 }
 
-export default sectionWrapper(Works,"")
+export default sectionWrapper(Works,"Project")

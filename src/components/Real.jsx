@@ -60,4 +60,4 @@ const Real = () => {
   )
 }
 
-export default Real
+export default sectionWrapper(Real,"Real")
