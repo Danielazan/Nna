@@ -38,7 +38,7 @@ const HospitalityCard = ({index, name,image,source_code_link})=>(
 )
 
 const RealEstateCard = ({index, name,image,source_code_link})=>(
-  <motion.div variants={fadeIn("up","spring", index * 0.5,0.75)}>
+  <motion.div variants={fadeIn("up","spring", index * 0.55,0.75)}>
   <Tilt
     options={{
       max:45,
@@ -154,13 +154,13 @@ const Works = () => {
       <h2 className={styles.sectionHeadText}>RealEstate.</h2>
 
       
-      <div className=" mt-20 grid grid-cols-1 xs:grid-cols-3 gap-4">
+      <section className=" mt-10 grid grid-cols-1 xs:grid-cols-3 gap-4">
           {
             RealEstates.map((RealEstate, index)=>(
-              <RealEstateCard key={`RealEstate-${index}`} {...RealEstate}/>
+              <RealEstateCard key={`project-${index}`} {...RealEstate}/>
             ))
           }
-      </div>
+      </section>
     </>
   )
 }
