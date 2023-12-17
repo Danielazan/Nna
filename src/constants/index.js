@@ -23,6 +23,17 @@ import {
   jobit,
   tripguide,
   threejs,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  H6,
+  H7,
+  H8,
+  H9,
+  E1,
+  E2
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +53,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Estate Manager",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Facility Manager",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Expert in Communication ",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Hospitality Management",
     icon: creator,
   },
 ];
@@ -116,57 +127,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "N9 Global Multipurpose Limited (Manager)",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "20th Feburary 2018 - Date ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Prioritize, plan, schedule and manage production activities to meet Manufacturing objectives in timely and cost-effective manner (agro produce).",
+      "Delegating responsibilities and supervising business operations.",
+      "Hiring, training, motivating and coaching employees as they provide attentive, efficient service to customers, assessing employee performance and providing helpful feedback.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Enugu state University of science and technology teaching hospital (park lane) ",
+    // company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: " 2018- till date ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Position: Volunteer",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Finji Structural Limited, Imo, Nigeria (Project Manager) ",
+    // company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "02/09/20162nd September 2016 – 30th September 2018 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Serving as a point of contact for teams when multiple units are assigned to the same project to ensure team actions remain in synergy .",
+      "Communicating with executives or the board to keep the project aligned to the same project to ensure team actions remain in synergy.",
+      "Supervising workers, subcontractors on work activities and safety .",
+      "Coordinating of procurement and plant equipment.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -262,4 +271,64 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const Hospitalitys = [
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    
+    image: H2,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: H3,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: H4,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: H5,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: H6,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: H7,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: H9,
+    source_code_link: "https://github.com/",
+  },
+  
+];
+
+export { services, technologies, experiences, testimonials, projects,Hospitalitys };

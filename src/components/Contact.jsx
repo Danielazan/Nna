@@ -36,6 +36,15 @@ const Contact = () => {
 
         <h3 className={styles.sectionHeadText}>Contact</h3>
 
+        <p className={` font-poppins text-white text-[14px] font-bold`}>Send Email to: <span className='mr-2 text-blue-300'>
+          queennelly91@gmail.com 
+          </span> 
+            or 
+          <span className='font-poppins text-blue-300 text-[14px] ml-2'>
+              N9globalmultipurposeltd@gmail.com
+          </span>
+        </p>
+
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className="flex flex-col">
               <span className='text-white font-medium mb-4'>Your Name</span>

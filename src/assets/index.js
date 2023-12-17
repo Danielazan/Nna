@@ -31,6 +31,21 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import H1 from "./videos/dis14.mp4"
+import H2 from "./videos/dis9.jpg"
+import H3 from "./videos/dis6.jpg"
+import H4 from "./videos/dis10.jpg"
+import H5 from "./videos/dis4.jpg"
+import H6 from "./videos/dis3.jpg"
+import H7 from "./videos/dis2.jpg"
+import H8 from "./videos/dis13.mp4"
+import H9 from "./videos/dis1.jpg"
+import E1 from "./videos/dis11.jpg"
+import E2 from "./videos/dis12.jpg"
+// import H1 from "./videos/dis14.mp4"
+// import H1 from "./videos/dis14.mp4"
+
+
 export {
   logo,
   backend,
@@ -61,4 +76,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  H6,
+  H7,
+  H8,
+  H9,
+  E1,
+  E2
 };

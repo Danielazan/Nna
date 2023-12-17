@@ -46,7 +46,7 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          Nnenna Eloka is a Real Estate broker and a Hospitality manager at N9 Global Multipurpose Limited since 2016 till date, she is also a Project Manager, Nnenna studied Metallurgical and Materials Engineering at the Prestigious Enugu state university of science and Technology and she’s a Data Analyst.
+          Nnenna Eloka is a Real Estate broker and a Hospitality manager at N9 Global Multipurpose Limited since 2016 till date, she is also a Project Manager, Nnenna studied Metallurgical and Materials Engineering at the Prestigious Enugu state university of science and Technology.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
