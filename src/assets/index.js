@@ -42,8 +42,11 @@ import H8 from "./videos/dis13.mp4"
 import H9 from "./videos/dis1.jpg"
 import E1 from "./videos/dis11.jpg"
 import E2 from "./videos/dis12.jpg"
-// import H1 from "./videos/dis14.mp4"
-// import H1 from "./videos/dis14.mp4"
+import E3 from "./videos/disE1.jpg"
+import E4 from "./videos/disE2.jpg"
+import E5 from "./videos/disE3.jpg"
+import E6 from "./videos/disE4.jpg"
+import E7 from "./videos/disE5.jpg"
 
 
 export {
@@ -86,5 +89,11 @@ export {
   H8,
   H9,
   E1,
-  E2
+  E2,
+  E3,
+  E4,
+  E5,
+  E6,
+  E7
+
 };

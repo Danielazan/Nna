@@ -33,7 +33,12 @@ import {
   H8,
   H9,
   E1,
-  E2
+  E2,
+  E3,
+  E4,
+  E5,
+  E6,
+  E7
 } from "../assets";
 
 export const navLinks = [
@@ -53,19 +58,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Estate Manager",
+    title: "Real Estate Broker",
     icon: web,
   },
   {
-    title: "Facility Manager",
+    title: "Hospitality Management",
     icon: mobile,
   },
   {
-    title: "Expert in Communication ",
+    title: "Communication expert",
     icon: backend,
   },
   {
-    title: "Hospitality Management",
+    title: "Facility Manager",
     icon: creator,
   },
 ];
@@ -129,7 +134,7 @@ const experiences = [
   {
     title: "N9 Global Multipurpose Limited (FOUNDER)",
     company_name: "Starbucks",
-    icon: starbucks,
+    // icon: starbucks,
     iconBg: "#383E56",
     date: "20th Feburary 2018 - Date ",
     points: [
@@ -331,4 +336,64 @@ const Hospitalitys = [
   
 ];
 
-export { services, technologies, experiences, testimonials, projects,Hospitalitys };
+const RealEstates = [
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    
+    image: E1,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: E2,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: E3,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: E4,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: E5,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: E6,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    
+    image: E7,
+    source_code_link: "https://github.com/",
+  },
+  
+];
+
+export { services, technologies, experiences, testimonials, projects,Hospitalitys, RealEstates };
