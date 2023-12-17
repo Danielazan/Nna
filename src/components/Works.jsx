@@ -6,6 +6,7 @@ import { sectionWrapper } from "../hoc"
 import { projects,Hospitalitys,RealEstates } from "../constants"
 import { fadeIn,textVariant } from "../utils/motion"
 import { useState } from "react"
+import Real from "./Real"
 
 
 const HospitalityCard = ({index, name,image,source_code_link})=>(
@@ -148,19 +149,11 @@ const Works = () => {
             Hospitalitys.map((Hospitality, index)=>(
               <HospitalityCard key={`project-${index}`} {...Hospitality}/>
             ))
+
           }
-      </div>
 
-      <h2 className={styles.sectionHeadText}>RealEstate.</h2>
-
+      </div>  
       
-      <section className=" mt-10 grid grid-cols-1 xs:grid-cols-3 gap-4">
-          {
-            RealEstates.map((RealEstate, index)=>(
-              <RealEstateCard key={`project-${index}`} {...RealEstate}/>
-            ))
-          }
-      </section>
     </>
   )
 }

@@ -338,7 +338,7 @@ const Hospitalitys = [
 
 const RealEstates = [
   {
-    name: "Job IT",
+    name: "Job ITs",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     
@@ -346,7 +346,7 @@ const RealEstates = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Trip Guides",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     
@@ -354,7 +354,7 @@ const RealEstates = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Trip Guide2",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     
@@ -362,7 +362,7 @@ const RealEstates = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Trip Guide2",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     
@@ -370,7 +370,7 @@ const RealEstates = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Trip Guide2",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     
@@ -386,7 +386,7 @@ const RealEstates = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Trip Guide3",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     
