@@ -127,42 +127,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "N9 Global Multipurpose Limited (Manager)",
+    title: "N9 Global Multipurpose Limited (FOUNDER)",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
     date: "20th Feburary 2018 - Date ",
     points: [
-      "Prioritize, plan, schedule and manage production activities to meet Manufacturing objectives in timely and cost-effective manner (agro produce).",
+      "Pririotize, plan, schedule and manage productive activities to meet up with clients demands.",
       "Delegating responsibilities and supervising business operations.",
       "Hiring, training, motivating and coaching employees as they provide attentive, efficient service to customers, assessing employee performance and providing helpful feedback.",
     ],
   },
   {
-    title: "Enugu state University of science and technology teaching hospital (park lane) ",
+    title: "Extreme Lounge and Bar, Enugu State",
     // company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: " 2018- till date ",
+    date: " 2014-2017 ",
     points: [
-      "Position: Volunteer",
+      "Position: Accountant",
       // "Implementing responsive design and ensuring cross-browser compatibility.",
       // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Finji Structural Limited, Imo, Nigeria (Project Manager) ",
-    // company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "02/09/20162nd September 2016 – 30th September 2018 ",
-    points: [
-      "Serving as a point of contact for teams when multiple units are assigned to the same project to ensure team actions remain in synergy .",
-      "Communicating with executives or the board to keep the project aligned to the same project to ensure team actions remain in synergy.",
-      "Supervising workers, subcontractors on work activities and safety .",
-      "Coordinating of procurement and plant equipment.",
-    ],
-  },
+  // {
+  //   title: "Finji Structural Limited, Imo, Nigeria (Project Manager) ",
+  //   // company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "02/09/20162nd September 2016 – 30th September 2018 ",
+  //   points: [
+  //     "Serving as a point of contact for teams when multiple units are assigned to the same project to ensure team actions remain in synergy .",
+  //     "Communicating with executives or the board to keep the project aligned to the same project to ensure team actions remain in synergy.",
+  //     "Supervising workers, subcontractors on work activities and safety .",
+  //     "Coordinating of procurement and plant equipment.",
+  //   ],
+  // },
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
