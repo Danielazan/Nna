@@ -70,7 +70,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Facility Manager",
+    title: "Facility Management",
     icon: creator,
   },
 ];
