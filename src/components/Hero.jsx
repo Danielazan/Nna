@@ -1,11 +1,41 @@
 import {motion} from "framer-motion"
 import {styles} from "../styles"
 import { ComputersCanvas } from "./canvas"
+import { slideIn } from '../utils/motion'
+import { Nnenna } from "../assets"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+    <section className="relative w-full h-auto mx-auto">
+      <div className={`${styles.paddingX} mt-12 max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+        <div className='xl:mt-12 xl:flex-row flex-col flex gap-10 overflow-hidden items-center'>
+        <motion.div
+          variants={slideIn("left","tween", 0.2,1)}
+          className='flex-[0.75] b-black-100 p-8 rounded-2xl'
+        >
+          <div>
+              <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Nnenna</span></h1>
+
+              <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+                  I develop 3D Visuals, user <br className="sm:block hidden"/>interfaces and web applications.
+              </p>
+          </div>
+
+        </motion.div>
+
+        <motion.div
+          variants={slideIn("right","tween", 0.2,1)}
+          className='xl:flex-1 xl:h-auto md:h-[550px] h-[550px]'
+        >
+            <div className="relative w-full h-full">
+            <img src={Nnenna} alt="Nnenna" className="w-full h-full object-cover rounded-2xl" />
+            </div>
+        </motion.div>
+        </div>
+      </div>
+      
+
+      {/* <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915eff]"/>
             <div className="w-1 sm:h-80 h-40 violet-gradient"/>
@@ -20,8 +50,8 @@ const Hero = () => {
         </div>
 
         
-      </div>
-      <ComputersCanvas />
+      </div> */}
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-5 bottom-12 w-full flex justify-center items-center">
           <a href="#about">
