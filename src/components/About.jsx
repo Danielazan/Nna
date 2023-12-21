@@ -22,7 +22,7 @@ const ServiceCard = ({index, title, icon}) =>{
           }}
           className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
-            <img src={icon} alt={title}  className='w-16 h-16 object-contain' />
+            <img src={icon} alt={title}  className='object-contain w-16 h-16' />
 
             <h3 className='text-white font-poppins text-[20px] font-bold text-center'>{title}</h3>
         </div>
@@ -46,10 +46,10 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          Nnenna Eloka Helen is a Real Estate broker and a Hospitality manager at N9 Global Multipurpose Limited since 2016 till date, she is also a Project Manager, Nnenna studied Metallurgical and Materials Engineering at the Prestigious Enugu state university of science and Technology.
+          Engr.Nnenna Eloka Helen is a Real Estate broker and a Hospitality manager at N9 Global Multipurpose Limited since 2016 till date, she is also a Project Manager, Nnenna studied Metallurgical and Materials Engineering at the Prestigious Enugu state university of science and Technology.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='flex flex-wrap gap-10 mt-20'>
         {
           services.map((service, index)=>(
             <ServiceCard key={service.title} index={index} {...service} />
